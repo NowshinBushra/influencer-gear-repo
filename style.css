@@ -20,9 +20,6 @@ header{
     margin-right: 20px;
     font-size: 2em;
 }
-#menu-bar{
-    visibility: hidden;
-}
 .menus{
     display: flex;
 }
@@ -40,7 +37,7 @@ header{
 }
 .content{
     margin-left: 170px;
-    margin-right: 133px;
+    margin-right: 103px;
     margin-top: 144px;
     width: 582px;
     height: 270px;
@@ -68,6 +65,9 @@ header{
     background-color: #f5528e;
     padding: 13px;
 }
+.camera1{
+    width: 700px;
+}
 .camera1 img{
     width: 700px;
     height: 700px; 
@@ -86,7 +86,7 @@ header{
     justify-content: center;
     grid-column-gap: 30px;
     grid-row-gap: 30px;
-    margin: 30px 100px 0px 180px;
+    margin: 30px 80px 0px 180px;
 }
 .product-details{
     width: 300px;
@@ -151,6 +151,19 @@ header{
 .fa-arrow-right{
     margin-left: 7px;
 }
+/* ------------s3------------- */
+.s3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+.scomment{
+    width: 370px;
+    text-align: center;
+    background-color: rgba(243, 242, 242, 0.63);
+    border: 5px solid rgb(212, 130, 158);
+}
 /* ---------------------------footer--------------------------- */
 footer{
     background-color: #0A0826;
@@ -198,10 +211,6 @@ footer div p{
        margin-left: 3em;
        margin-top: -2em;
    }
-   
-    #menu-bar{
-        visibility: visible;
-    }
     .s1{
         display: flex;
         flex-direction: column;
@@ -213,7 +222,7 @@ footer div p{
         margin-left: 28em;
     }
     footer{
-       width: 100%;
+       width: 120%;
     }
     .menu{
         display: none;
@@ -228,8 +237,8 @@ footer div p{
         margin-left: 2em;
         margin-top: -2em;
     }
-    #menu-bar{
-        visibility: visible;
+    .camera1 img{
+        max-width: 100%;
     }
     .s1{
         display: flex;
